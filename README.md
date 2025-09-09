@@ -8,12 +8,14 @@ A static clone of Amazon.pk built using HTML and CSS.
 - Header with search bar and navigation
 - Product listings with images, prices, and ratings
 - Footer section
-- Clean and organised code structure
+- Clean and organized code structure
 
 ## Demo
 
 _Add a screenshot here if you have one:_
-![screenshot](screenshot.png)
+![screenshot](</Amazon.pk/Amazon_pk/amazon_pk%20(1).png>)
+![screenshot](</Amazon.pk/Amazon_pk/amazon_pk%20(2).png>)
+![screenshot](</Amazon.pk/Amazon_pk/amazon_pk%20(3).png>)
 
 ## Getting Started
 
