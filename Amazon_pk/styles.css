@@ -79,6 +79,10 @@
 }
 
 /* Box 4 */
+.nav_links {
+  color: white;
+  text-decoration: none;
+}
 span {
   font-size: 0.7rem;
 }
@@ -187,6 +191,12 @@ span {
   width: 80px;
   font-weight: 700;
 }
+.blank_space {
+  margin-top: 40%;
+  height: 100%;
+  width: 100%;
+}
+
 /* Footer */
 footer {
   margin-top: 16px;
