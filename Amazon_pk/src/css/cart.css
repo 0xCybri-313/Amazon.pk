@@ -90,7 +90,7 @@
 }
 
 .split input {
-  width: 100%;
+  width: 85%;
 }
 
 .input_label {
@@ -143,10 +143,5 @@
 
 .input_field[type="number"] {
   -moz-appearance: textfield;
-}
-.form_main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 16px;
+  appearance: textfield;
 }
