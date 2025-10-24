@@ -1,0 +1,47 @@
+/* Phones */
+@media (max-width: 600px) {
+  .nav_second {
+    display: none;
+  }
+  span {
+    display: none;
+  }
+  .nav_add {
+    display: none;
+  }
+  .nav_search {
+    width: 100%;
+  }
+  .nav_second {
+    display: none;
+  }
+
+  .nav_search {
+    flex: 1 1 100%;
+    order: 3; /* moves it to the next line visually */
+  }
+  .panel_option {
+    display: none;
+  }
+  .box {
+    width: 90%;
+  } /* 1 card per row */
+  .box {
+    flex-direction: column;
+  }
+}
+/* tablet */
+@media (max-width: 992px) {
+  .box {
+    width: 45%;
+  } /* 2 cards per row */
+  span {
+    display: none;
+  }
+  .nav_second {
+    display: none;
+  }
+  .lc {
+    display: none;
+  }
+}
