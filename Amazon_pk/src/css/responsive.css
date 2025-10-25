@@ -1,5 +1,42 @@
-/* Phones */
+/* tablet */
+@media (max-width: 992px) {
+  .box {
+    width: 45%;
+  } /* 2 cards per row */
+  span {
+    display: none;
+  }
+  .nav_second {
+    display: none;
+  }
+  .add_icon {
+    display: none;
+  }
+  #pc {
+    display: none;
+  }
+  .add_top {
+    display: none;
+  }
+  .phone_text {
+    display: none;
+  }
+  .hero_message {
+    font-size: 1rem;
+    gap: 16%;
+  }
+}
 @media (max-width: 600px) {
+  .logo {
+    margin-top: 8px;
+    height: 40px;
+    width: 100px;
+  }
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 110px;
+  }
   .nav_second {
     display: none;
   }
@@ -15,33 +52,48 @@
   .nav_second {
     display: none;
   }
-
   .nav_search {
     flex: 1 1 100%;
-    order: 3; /* moves it to the next line visually */
+    order: 2; /* moves it to the next line visually */
   }
   .panel_option {
     display: none;
   }
-  .box {
-    width: 90%;
-  } /* 1 card per row */
-  .box {
-    flex-direction: column;
+
+  .nav_logo {
+    display: block;
   }
-}
-/* tablet */
-@media (max-width: 992px) {
-  .box {
-    width: 45%;
-  } /* 2 cards per row */
-  span {
+  .panel {
+    justify-content: space-between;
+  }
+  .hero_message {
+    border-radius: 16px;
+    justify-content: space-between;
+    font-size: 0.8rem;
+  }
+  .shop_now {
+    margin-right: 4%;
+    border-radius: 16px;
+    font-size: 0.75rem;
+  }
+  .phone_text {
     display: none;
   }
-  .nav_second {
-    display: none;
+  .pc_text {
+    margin-left: 4%;
   }
-  .lc {
-    display: none;
+  @media (max-width: 500px) {
+    .box {
+      width: 80%;
+      margin-top: 8px;
+    } /* 1 card per row */
+    .pc_text {
+      display: none;
+    }
+    .phone_text {
+      display: block;
+      font-size: 1rem;
+      margin-left: 8%;
+    }
   }
 }

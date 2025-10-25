@@ -166,7 +166,11 @@ span {
   padding: 20px 0 15;
   margin-bottom: 16px;
 }
-/* Tablets */
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+  } /* 1 card per row */
+}
 .box_content {
   display: flex;
   flex-direction: column;
