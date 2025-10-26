@@ -30,13 +30,9 @@
 }
 @media (max-width: 600px) {
   .hero_section {
-  background-image: url("../logo/pixel_10_pro.jpg");
-  height: 400px;
-  width: 100%;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+    background-image: url("../logo/pixel_10_pro.jpg");
+    height: 200px;
+  }
   .box {
     flex: 1 1 100%;
   }
@@ -83,6 +79,7 @@
     border-radius: 16px;
     justify-content: space-between;
     font-size: 0.8rem;
+    height: 32px;
   }
   .shop_now {
     margin-right: 4%;
