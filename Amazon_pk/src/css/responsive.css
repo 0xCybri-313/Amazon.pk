@@ -29,6 +29,14 @@
   }
 }
 @media (max-width: 600px) {
+  .hero_section {
+  background-image: url("../logo/pixel_10_pro.jpg");
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   .box {
     flex: 1 1 100%;
   }
