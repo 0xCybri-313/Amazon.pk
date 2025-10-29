@@ -2,6 +2,8 @@
 
 A static clone of Amazon.pk built using HTML and CSS.
 
+https://0xcybri-313.github.io/Amazon.pk/
+
 ## Features
 
 - Responsive layout similar to Amazon.pk
